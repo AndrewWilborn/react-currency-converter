@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Converter(){
-    const [inputValue, setInputValue] = useState("")
+    const [inputValue, setInputValue] = useState("0")
 
     const [inputCurrency, setInputCurrency] = useState("USD")
 
