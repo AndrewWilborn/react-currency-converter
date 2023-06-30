@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Converter from './components/Converter';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>Currency Converter</h1>
       </header>
       <Converter/>
+      <Footer/>
     </div>
   );
 }
